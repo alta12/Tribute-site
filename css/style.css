@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.15em;
+
+    margin:25px;
+    text-align: justify;
+
+    -webkit-animation: change-color 15s linear 0s infinite alternate-reverse;
+    /* name duration timing-funciton delay iteration direction   */
+
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+#canon-doyle-img {
+    margin: 20px;
+    /* padding:10px; */
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: auto;
+    float: right;
+
+}
+#canon-content {
+    margin-left: 3%;
+    margin-right:3%;
+    padding:10px;
+    height:auto;
+    border: 2px;
+    border-radius: 25px;
+    background: rgb(108, 173, 216); 
+    
+}
+
+#sherlock-holmes-img {
+    margin: 20px;
+    display: flex;
+     flex-wrap: nowrap;
+    height: 300px;
+    width: auto;
+    float: right;
+}
+
+#sherly-content {
+    margin-left: 3%;
+    margin-right:3%;
+    padding:10px;
+    height:auto;
+    border: 2px;
+    border-radius: 25px;
+    background: rgb(108, 173, 216); 
+}
+
+#book-container {
+    margin-left: 3%;
+    margin-right:3%;
+    height:auto;
+    border: 2px;
+    border-radius: 25px;
+    background: rgb(108, 173, 216); 
+    padding:40px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto; */
+    justify-content: space-evenly; 
+} 
+
+.book-images { 
+    height:300px;
+    width:200px;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+
+#about-books {
+    margin-left: 3%;
+    margin-right:3%;
+    padding:10px;
+    height:auto;
+    border: 2px;
+    border-radius: 25px;
+    background: rgb(108, 173, 216); 
+}
+
+#footer-content {
+    margin-left: 3%;
+    margin-right:3%;
+    padding:10px;
+    height:auto;
+    border: 2px;
+    border-radius: 25px;
+    background: rgb(108, 173, 216);    
+}
+
+#for-conclusion {
+    text-align: center;
+}
+
+#gmail {
+    text-align: center;
+}
+
+@keyframes change-color {
+    0% {background: rgb(150, 0, 0);}
+    10% {background: rgb(156, 63, 0);}
+    20% {background: rgb(175, 175, 0);}
+    30% {background: rgb(84, 158, 0);}
+    40% {background: rgb(0, 143, 43);}
+    50% {background: rgb(0, 145, 137);}
+    60% {background: rgb(0, 73, 141);}
+    70% {background: rgb(0, 47, 134);}
+    80% {background: rgb(70, 0, 128);}
+    90% {background: rgb(105, 1, 126);}
+    100% {background: rgb(117, 0, 49);}
+}
